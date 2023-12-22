@@ -1,0 +1,19 @@
+{
+  "name": "health-center-api",
+  "version": "1.0.0",
+  "description": "Une api de santé pour gérer les demandes d'un centre médical.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MLZ3/Travail-de-groupe-H-Bin2-2-me-ann-e-.git"
+  },
+  "author": "Mehdi Alexandre Paul-Joseph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MLZ3/Travail-de-groupe-H-Bin2-2-me-ann-e-/issues"
+  },
+  "homepage": "https://github.com/MLZ3/Travail-de-groupe-H-Bin2-2-me-ann-e-#readme"
+}
