@@ -12,8 +12,16 @@
   },
   "author": "Mehdi Alexandre Paul-Joseph",
   "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
+  },
   "bugs": {
     "url": "https://github.com/MLZ3/Travail-de-groupe-H-Bin2-2-me-ann-e-/issues"
   },
   "homepage": "https://github.com/MLZ3/Travail-de-groupe-H-Bin2-2-me-ann-e-#readme"
 }
+
+
+
