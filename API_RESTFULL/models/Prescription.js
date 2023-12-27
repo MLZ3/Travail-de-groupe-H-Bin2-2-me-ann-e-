@@ -31,4 +31,4 @@ const Patient = sequelize.define('Patient', {
   },
 });
 
-module.exports = Patient;
+module.exports = Prescription;
