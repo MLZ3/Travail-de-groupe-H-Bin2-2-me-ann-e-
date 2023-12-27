@@ -7,7 +7,7 @@ const Patient = sequelize.define('Patient', {
     allowNull: false,
   },
   ID: {
-    type: DataTypes.INT,
+    type: DataTypes.INTEGER,
     allowNull: false,
   },
   prenom: {
