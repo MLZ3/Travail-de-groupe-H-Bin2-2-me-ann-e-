@@ -35,6 +35,7 @@ User.init(
 
 User.addHook("beforeCreate", async (user) => {
   user.password = await bcrypt.hash(user.password, await bcrypt.genSalt(10));
+});
 
 User.addHook("beforeUpdate", async (user, options) => {
   if (options.fields.includes("password")) {
