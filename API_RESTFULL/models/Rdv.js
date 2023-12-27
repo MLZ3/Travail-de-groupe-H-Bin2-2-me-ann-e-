@@ -3,7 +3,7 @@ const sequelize = require('./db');
 
 const RendezVous = sequelize.define('RendezVous', {
    ID: {
-    type: DataTypes.INT,
+    type: DataTypes.INTEGER,
     allowNull: false,
   },
     dateHeure: {
