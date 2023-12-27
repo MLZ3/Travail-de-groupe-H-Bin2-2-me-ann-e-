@@ -22,11 +22,11 @@ const Patient = sequelize.define('Patient', {
     type: DataTypes.STRING,
   },
   DuréeDuTraitement: {
-    type: DataTypes.INT,
+    type: DataTypes.INTEGER,
     allowNull: false,
   },
   Dosage: {
-    type: DataTypes.INT,
+    type: DataTypes.INTEGER,
     allowNull: false,
   },
 });
