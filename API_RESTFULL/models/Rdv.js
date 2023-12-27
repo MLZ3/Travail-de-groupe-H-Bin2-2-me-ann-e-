@@ -1,7 +1,7 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('./db');
 
-const RendezVous = sequelize.define('RendezVous', {
+const Rdv = sequelize.define('Rdv', {
    ID: {
     type: DataTypes.INTEGER,
     allowNull: false,
@@ -20,4 +20,4 @@ const RendezVous = sequelize.define('RendezVous', {
   },
 });
 
-module.exports = RendezVous;
+module.exports = Rdv;
